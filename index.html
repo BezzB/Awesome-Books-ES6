@@ -28,8 +28,11 @@
                     <a class="nav-link" href="#contact-info">Contact Info</a>
                 </li>
             </ul>
-        </div>
+        </div>     
     </nav>
+    <div class="navbar-text ml-auto">
+        <span id="current-date"></span>
+      </div>
     <div class="container mt-4">
         <section id="book-list-c">
             <h2 class="text-center mb-4"><i class="fas fa-book text-primary"></i> Books List</h2>
@@ -39,7 +42,8 @@
                         <th>Title</th>
                         <th>Author</th>
                         <th>ISBN#</th>
-                        <th></th>
+                        <th> 
+                        </th>
                     </tr>
                 </thead>
                 <tbody id="book-list"></tbody>
@@ -62,6 +66,7 @@
                 </div>
                 <input type="submit" value="Add Book" class="btn btn-primary btn-block">
             </form>
+            
         </section>
           <!-- Contact Us section -->
     <section id="contact-info" class="container mt-4">
@@ -83,7 +88,17 @@
       </form>
     </section>
     </div>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+<script>
+  // Get the current date and format it using Luxon
+  const currentDate = luxon.DateTime.local().toFormat('EEEE, LLLL d, y');
+
+  // Update the current date element with the formatted date
+  const currentDateElement = document.getElementById('current-date');
+  currentDateElement.innerText = currentDate;
+</script>
+
 </body>
 
 </html>

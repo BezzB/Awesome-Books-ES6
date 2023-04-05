@@ -14,9 +14,7 @@ class UI {
         <td>${book.author}</td>
         <td>${book.isbn}</td>
         <td>
-          <button class="delete-button">
-            <i class="fa fa-trash"></i>
-          </button>
+        <button class='delete-button' id='delete-button'><i class="fa fa-trash"></i></button>
         </td>
       `;
     list.appendChild(row);
@@ -44,4 +42,4 @@ class UI {
   }
 }
 
-module.exports = UI;
+export default UI;
