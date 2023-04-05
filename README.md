@@ -1,5 +1,5 @@
 # Awesome-Books-ES6
-# Awesome-books
+
 <a name="readme-top"></a>
 
 <!--
