@@ -34,7 +34,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>setting up the mobile first project</b></h3>
+  <h3><b>Awesome Book With ES6</b></h3>
 
 </div>
 
@@ -66,7 +66,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Book with ES6 ] <a name="about-project"></a>
 
-> Hello , This is a simple project shows how to create a portofolio.
+> Hello , This is a simple project how to create a booklist add and remove books from the list.
 
 **[Awesome Book with ES6 ]** is a simple buil up demo project.
 
@@ -83,6 +83,9 @@ After you're finished please remove all the comments and instructions!
   <summary>CSS</summary>
 </details>
 
+<details>
+  <summary>Javascript</summary>
+</details>
 
 <!-- Features -->
 
