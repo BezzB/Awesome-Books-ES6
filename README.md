@@ -1,4 +1,5 @@
-# Awesome-books
+# Awesome-Books-ES6
+
 <a name="readme-top"></a>
 
 <!--
@@ -33,7 +34,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>setting up the mobile first project</b></h3>
+  <h3><b>Awesome Book With ES6</b></h3>
 
 </div>
 
@@ -63,11 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [setting up the mobile first project ] <a name="about-project"></a>
+# 📖 [Awesome Book with ES6 ] <a name="about-project"></a>
 
-> Hello , This is a simple project shows how to create a portofolio.
+> Hello , This is a simple project how to create a booklist add and remove books from the list.
 
-**[setting up the mobile first project ]** is a simple buil up demo project.
+**[Awesome Book with ES6 ]** is a simple buil up demo project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,14 +83,17 @@ After you're finished please remove all the comments and instructions!
   <summary>CSS</summary>
 </details>
 
+<details>
+  <summary>Javascript</summary>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Simple Site]**
-- **[Font used]**
+- **[Book list]**
+- **[Modules framework used]**
 -
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
