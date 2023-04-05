@@ -1,10 +1,16 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable default-case */
 /* eslint-disable max-classes-per-file */
-
+import { DateTime } from './modules/luxon.js';
 import Store from './modules/Store.js';
 import Book from './modules/Book.js';
 import UI from './modules/UI.js';
+
+// Select the "current-date" element
+const currentDateElement = document.querySelector('#current-date');
+
+// Update the text content of the element with the current date
+currentDateElement.textContent = DateTime.now().toLocaleString(DateTime.DATE_SHORT);
 
 // Display existing books when the page loads
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
