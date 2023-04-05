@@ -48,7 +48,7 @@ document.querySelector('#book-list-c').addEventListener('click', (e) => {
   Store.removeBook(
     e.target.closest('tr').querySelectorAll('td')[2].textContent,
   );
-  UI.showAlert('Book removed', 'success', 'book-list-c');
+  UI.showAlert('Book removed', 'danger', 'book-list-c');
 
   setTimeout(() => {
     // eslint-disable-next-line no-restricted-globals
