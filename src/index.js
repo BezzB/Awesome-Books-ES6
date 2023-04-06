@@ -1,1 +1,3 @@
-console.log('heloo world')
+import{camelCase} from 'lodash'
+
+console.log (camelCase('heloo world'))

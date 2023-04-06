@@ -599,7 +599,8 @@
     "zwitch": "^1.0.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -611,5 +612,14 @@
   "bugs": {
     "url": "https://github.com/BezzB/Awesome-Books-ES6/issues"
   },
-  "homepage": "https://github.com/BezzB/Awesome-Books-ES6#readme"
+  "homepage": "https://github.com/BezzB/Awesome-Books-ES6#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
